@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C62B135A-6336-3F12-9925-FBB660326948}</ProjectGuid>
+    <ProjectGuid>{E0FE833C-D5D0-3839-A05C-6C6DD5895AAD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-build\tests\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-build\tests\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">inputlag.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">inputlag</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-build\tests\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-build\tests\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">inputlag.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">inputlag</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-build\tests\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-build\tests\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">inputlag.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">inputlag</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-build\tests\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-build\tests\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">inputlag.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">inputlag</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -97,16 +97,15 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,8 +119,8 @@
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-build/tests/Debug/inputlag.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-build/tests/Debug/inputlag.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-build/tests/Debug/inputlag.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-build/tests/Debug/inputlag.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -130,7 +129,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -139,7 +138,6 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
@@ -147,10 +145,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -164,8 +162,8 @@
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-build/tests/Release/inputlag.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-build/tests/Release/inputlag.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-build/tests/Release/inputlag.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-build/tests/Release/inputlag.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -174,7 +172,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -183,7 +181,6 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
@@ -191,10 +188,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,8 +205,8 @@
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-build/tests/MinSizeRel/inputlag.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-build/tests/MinSizeRel/inputlag.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-build/tests/MinSizeRel/inputlag.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-build/tests/MinSizeRel/inputlag.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -218,7 +215,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -228,16 +225,15 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps;C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -251,8 +247,8 @@
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-build/tests/RelWithDebInfo/inputlag.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-build/tests/RelWithDebInfo/inputlag.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-build/tests/RelWithDebInfo/inputlag.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-build/tests/RelWithDebInfo/inputlag.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -260,11 +256,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\tests\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\tests\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-src/tests/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-src/tests/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/whela/Videos/Desktop/CTest -BC:/Users/whela/Videos/Desktop/CTest/build --check-stamp-file C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-build/tests/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/whela/Videos/Desktop/OpenGL-Boilerplate -BC:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build --check-stamp-file C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-build/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -273,11 +269,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-build\tests\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-build\tests\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-src/tests/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-src/tests/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/whela/Videos/Desktop/CTest -BC:/Users/whela/Videos/Desktop/CTest/build --check-stamp-file C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-build/tests/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/whela/Videos/Desktop/OpenGL-Boilerplate -BC:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build --check-stamp-file C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-build/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -286,11 +282,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-build\tests\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-build\tests\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-src/tests/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-src/tests/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/whela/Videos/Desktop/CTest -BC:/Users/whela/Videos/Desktop/CTest/build --check-stamp-file C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-build/tests/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/whela/Videos/Desktop/OpenGL-Boilerplate -BC:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build --check-stamp-file C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-build/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -299,11 +295,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-build\tests\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-build\tests\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-src/tests/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-src/tests/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/whela/Videos/Desktop/CTest -BC:/Users/whela/Videos/Desktop/CTest/build --check-stamp-file C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-build/tests/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/whela/Videos/Desktop/OpenGL-Boilerplate -BC:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build --check-stamp-file C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-build/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -312,26 +308,26 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-build\tests\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-build\tests\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\tests\inputlag.c" />
-    <ClInclude Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps\getopt.h" />
-    <ClCompile Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps\getopt.c" />
-    <ClInclude Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps\glad\gl.h" />
-    <ClCompile Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps\glad_gl.c" />
+    <ClCompile Include="C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\tests\inputlag.c" />
+    <ClInclude Include="C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps\getopt.h" />
+    <ClCompile Include="C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps\getopt.c" />
+    <ClInclude Include="C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps\glad\gl.h" />
+    <ClCompile Include="C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps\glad_gl.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\whela\Videos\Desktop\CTest\build\ZERO_CHECK.vcxproj">
-      <Project>{2DB42E75-5400-3A6B-B61A-8E75F3E7F13A}</Project>
+    <ProjectReference Include="C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\ZERO_CHECK.vcxproj">
+      <Project>{71A1FF1A-EDA8-3208-971B-7F9D9B570CF4}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-build\src\glfw.vcxproj">
-      <Project>{68BF4478-2DD8-35C8-A48D-4FC7D27208D2}</Project>
+    <ProjectReference Include="C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-build\src\glfw.vcxproj">
+      <Project>{0F2952B4-EE67-34A0-BE15-4782CF2A8091}</Project>
       <Name>glfw</Name>
     </ProjectReference>
   </ItemGroup>

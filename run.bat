@@ -1,1 +1,1 @@
-.\build\Debug\CTest.exe
+.\build\Debug\OpenGL-Boilerplate.exe

@@ -1,6 +1,6 @@
-^C:\USERS\WHELA\VIDEOS\DESKTOP\CTEST\BUILD\CMAKEFILES\3C516DD9AAF492403ECCFD08831C297A\GENERATE.STAMP.RULE
+^C:\USERS\WHELA\VIDEOS\DESKTOP\OPENGL-BOILERPLATE\BUILD\CMAKEFILES\BDBFABB46BBE0AF948498586718F4361\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/whela/Videos/Desktop/CTest -BC:/Users/whela/Videos/Desktop/CTest/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/whela/Videos/Desktop/CTest/build/CTest.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/whela/Videos/Desktop/OpenGL-Boilerplate -BC:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/OpenGL-Boilerplate.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\tests\timeout.c">
+    <ClCompile Include="C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\tests\timeout.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps\glad_gl.c">
+    <ClCompile Include="C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps\glad_gl.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\deps\glad\gl.h">
+    <ClInclude Include="C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\deps\glad\gl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-src\tests\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\whela\Videos\Desktop\OpenGL-Boilerplate\build\_deps\glfw-src\tests\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{1FACF98E-76AE-3FAA-8886-C7410C9EFE7B}</UniqueIdentifier>
+      <UniqueIdentifier>{A2D89E28-565A-3EA1-B6A6-532F7FEA3D48}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{9783DAB3-4CF9-3709-AA05-446CB05BE97E}</UniqueIdentifier>
+      <UniqueIdentifier>{231C9F4A-3FC8-3AB0-A381-44561926C90B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

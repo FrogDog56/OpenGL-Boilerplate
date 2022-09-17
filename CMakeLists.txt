@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.20.0)
 
 #set(CMAKE_TOOLCHAIN_FILE "G:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake")
 
-project(OpenGl-Boilerplate)
+project(OpenGL-Boilerplate)
 
 add_executable(${PROJECT_NAME} src/main.cpp src/glad.c)
 

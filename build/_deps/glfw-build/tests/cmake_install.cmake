@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-src/tests
+# Install script for directory: C:/Users/whela/Videos/Desktop/OpenGL-Boilerplate/build/_deps/glfw-src/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/CTest")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/OpenGL-Boilerplate")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
