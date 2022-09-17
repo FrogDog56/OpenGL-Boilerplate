@@ -1,0 +1,10 @@
+^C:\USERS\WHELA\VIDEOS\DESKTOP\CTEST\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\87BCFB477887B98697EF1475A87BDECC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-subbuild -BC:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-subbuild/glfw-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

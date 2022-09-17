@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-subbuild/CMakeFiles/87bcfb477887b98697ef1475a87bdecc/glfw-populate.rule
+C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-subbuild/CMakeFiles/3167a48c228c61fb1a9bcf56cc34c438/glfw-populate-complete.rule
+C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-subbuild/CMakeFiles/4bcec77915948bb0e19b843704acf22c/glfw-populate-build.rule
+C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-subbuild/CMakeFiles/4bcec77915948bb0e19b843704acf22c/glfw-populate-configure.rule
+C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-subbuild/CMakeFiles/4bcec77915948bb0e19b843704acf22c/glfw-populate-download.rule
+C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-subbuild/CMakeFiles/4bcec77915948bb0e19b843704acf22c/glfw-populate-install.rule
+C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-subbuild/CMakeFiles/4bcec77915948bb0e19b843704acf22c/glfw-populate-mkdir.rule
+C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-subbuild/CMakeFiles/4bcec77915948bb0e19b843704acf22c/glfw-populate-patch.rule
+C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-subbuild/CMakeFiles/4bcec77915948bb0e19b843704acf22c/glfw-populate-test.rule
+C:/Users/whela/Videos/Desktop/CTest/build/_deps/glfw-subbuild/CMakeFiles/4bcec77915948bb0e19b843704acf22c/glfw-populate-update.rule

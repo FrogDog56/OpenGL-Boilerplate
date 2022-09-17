@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-subbuild\CMakeFiles\4bcec77915948bb0e19b843704acf22c\glfw-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-subbuild\CMakeFiles\4bcec77915948bb0e19b843704acf22c\glfw-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-subbuild\CMakeFiles\4bcec77915948bb0e19b843704acf22c\glfw-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-subbuild\CMakeFiles\4bcec77915948bb0e19b843704acf22c\glfw-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-subbuild\CMakeFiles\4bcec77915948bb0e19b843704acf22c\glfw-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-subbuild\CMakeFiles\4bcec77915948bb0e19b843704acf22c\glfw-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-subbuild\CMakeFiles\4bcec77915948bb0e19b843704acf22c\glfw-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-subbuild\CMakeFiles\4bcec77915948bb0e19b843704acf22c\glfw-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-subbuild\CMakeFiles\3167a48c228c61fb1a9bcf56cc34c438\glfw-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-subbuild\CMakeFiles\87bcfb477887b98697ef1475a87bdecc\glfw-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\whela\Videos\Desktop\CTest\build\_deps\glfw-subbuild\CMakeFiles\glfw-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6B0EDE71-754F-3CE4-B2B2-EA08BAFEE99C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
