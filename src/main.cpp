@@ -33,7 +33,7 @@ int main()
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
-    glfwWindowHint(GLFW_DECORATED, GLFW_FALSE); //borderless
+    //glfwWindowHint(GLFW_DECORATED, GLFW_FALSE); //borderless
 
     int horizontal = 0;
     int vertical = 0;
