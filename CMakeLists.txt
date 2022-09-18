@@ -1,12 +1,14 @@
 include(FetchContent)
 cmake_minimum_required(VERSION 3.20.0)
 
+#toolchain file doesnt work properly
 #set(CMAKE_TOOLCHAIN_FILE "G:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake")
 
 project(OpenGL-Boilerplate)
 
 add_executable(${PROJECT_NAME} src/main.cpp src/glad.c)
 
+#had to build glfw from source or else it doesnt work
 FetchContent_Declare(
         glfw
         GIT_REPOSITORY https://github.com/glfw/glfw.git
@@ -15,6 +17,7 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(glfw)
 
+#set your own vcpkg path
 set(CMAKE_PREFIX_PATH "G:/dev/vcpkg/installed/x64-windows/share")
 find_package(glm CONFIG REQUIRED)
 find_package(glfw3 CONFIG REQUIRED)

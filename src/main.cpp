@@ -8,6 +8,7 @@ const unsigned int width = 1600;
 const unsigned int height = 900;
 const char* title = "Frog2D";
 
+//gets windows screen res
 void getDesktopResolution(int& horizontal, int& vertical)
 {
    RECT desktop;
@@ -22,6 +23,7 @@ void getDesktopResolution(int& horizontal, int& vertical)
 
 int main()
 {
+    //glfw boilerplate
     glfwInit();
 
     glfwDefaultWindowHints();
@@ -36,10 +38,9 @@ int main()
     int horizontal = 0;
     int vertical = 0;
     getDesktopResolution(horizontal, vertical);
-    std::cout << horizontal << '\n' << vertical << '\n';
 
     GLFWwindow* window = glfwCreateWindow(width, height, title, NULL, NULL);
-    
+    //sets window to center of screen 
     glfwSetWindowPos(window, horizontal / 2 - width / 2, vertical / 2 - height / 2);
 
     if (window == NULL)
@@ -54,12 +55,14 @@ int main()
 
     glViewport(0, 0, width, height);
 
+    //main loop
     while (!glfwWindowShouldClose(window)) 
     {
         glClearColor(0.17f, 0.13f, 0.17f, 1.0f);
 
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
+        //close window
         if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) 
         {
             glfwSetWindowShouldClose(window, GL_TRUE);
